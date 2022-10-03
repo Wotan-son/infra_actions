@@ -77,4 +77,4 @@ jobs:
           sudo docker pull wotanson/infra_1
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 wotan/infra_1
+          sudo docker run --rm -d -p 5000:5000 wotanson/infra_1
